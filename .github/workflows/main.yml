@@ -29,7 +29,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Passo1
-        run: echo Segundo Job Concluído
+        run: echo "Segundo Job Concluído"
     
   job3:
     name: Terceiro Job
