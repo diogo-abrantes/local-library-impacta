@@ -22,21 +22,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Passo1
-        run: echo Primeiro Job Concluído
+        run: date
     
   job2: 
     name: Segundo Job
     runs-on: windows-latest
     steps:
       - name: Passo1
-        run: echo "Segundo Job Concluído"
+        run: date
     
   job3:
     name: Terceiro Job
     runs-on: macos-latest
     steps:
       - name: Passo1
-        run: echo Terceiro Job Concluído
+        run: date
     
   job4:
     name: Quarto Job
